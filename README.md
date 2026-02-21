@@ -52,21 +52,22 @@ Sebagian besar nilai tingkat korban terdistribusi di sekitar nilai 1,0.
 <img width="416" height="185" alt="image" src="https://github.com/user-attachments/assets/3d994fe1-94ed-413d-bc1f-6ba214ab9d37" />
 
 Keterangan:
-Y1: Dampak Ekonomi
-Y2: Tingkat Korban
-X1: Latitude
-X2: Longitude
-X3: Depth
-X4: Mag
-X5: Gap
-X6: Dmin
-X7: Rms
-X8: Kepadatan
-X9: Angka Ketergantungan
-X10: Angka Melek Huruf
-X11: Jumlah RS
-X12: Jumlah Tempat Tidur 
-X13: Rasio Tempat Tidur
+
+- Y1: Dampak Ekonomi
+- Y2: Tingkat Korban
+- X1: Latitude
+- X2: Longitude
+- X3: Depth
+- X4: Mag
+- X5: Gap
+- X6: Dmin
+- X7: Rms
+- X8: Kepadatan
+- X9: Angka Ketergantungan
+- X10: Angka Melek Huruf
+- X11: Jumlah RS
+- X12: Jumlah Tempat Tidur 
+- X13: Rasio Tempat Tidur
 
 <img width="350" height="180" alt="image" src="https://github.com/user-attachments/assets/d127a343-517a-4757-b220-f5a59e93cbe5" />
 
@@ -77,15 +78,17 @@ X13: Rasio Tempat Tidur
 <img width="397" height="184" alt="image" src="https://github.com/user-attachments/assets/907b62bd-5e44-4433-8a03-4e3fdcc6791c" />
 
 Keterangan:
-Model 1: Dampak Ekonomi
-Model 2: Tingkat Korban
+
+- Model 1: Dampak Ekonomi
+- Model 2: Tingkat Korban
 
 ### Model Gradient Boosting
 <img width="402" height="190" alt="image" src="https://github.com/user-attachments/assets/1f9f2408-6ec7-4c3d-8a09-ebc936cc1e67" />
 
 Keterangan:
-Model 1: Dampak Ekonomi
-Model 2: Tingkat Korban
+
+- Model 1: Dampak Ekonomi
+- Model 2: Tingkat Korban
 
 ### Model Terbaik
 - Dalam prediksi dampak ekonomi akibat gempa bumi, model gradient boosting memiliki kinerja yang lebih baik dibanding model regresi linear dan random forest, dengan nilai adjusted r-squared sebesar 0,924, nilai RMSE sebesar 276,160, dan nilai MAE sebesar 86,105.
